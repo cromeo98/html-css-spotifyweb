@@ -5,6 +5,8 @@
 .container-fluid .row>.left-container{
     height: calc(100vh - 200px);
     background-color: burlywood;
+    min-width: 250px;
+    
 }
 
 .container-fluid .row>.right-container{
@@ -13,9 +15,15 @@
     overflow: auto;
 }
 
+.col-playlist{
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* debug */
 .debug header{
-    height: 100px;
+    height: 80px;
     background-color: blue;
 }
 
@@ -29,3 +37,22 @@
     background-color: orange;
 }
 
+.debug #logo{
+    height: 80px;
+    background-color: cyan;
+}
+
+.debug nav{
+    height: 30px;
+    background-color: darkgoldenrod;
+}
+
+.debug .playlist{
+    height: 120px;
+    background-color: darkorange;
+}
+
+.debug .user{
+    height: 50px;
+    background-color: darkorchid;
+}
