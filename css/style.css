@@ -42,7 +42,7 @@
     background-color: cyan;
 }
 
-.debug nav{
+.debug .playlist-nav{
     height: 30px;
     background-color: darkgoldenrod;
 }
@@ -55,4 +55,24 @@
 .debug .user{
     height: 50px;
     background-color: darkorchid;
+}
+
+.debug .main-nav{
+    height: 30px;
+    background-color: darkred;
+}
+
+.debug #recently-played{
+    height: 150px;
+    background-color: darkslategrey;
+}
+
+.debug #created-for-you{
+    height: 150px;
+    background-color: lightpink;
+}
+
+.debug #popular-artists{
+    height: 150px;
+    background-color: blue;
 }
