@@ -1,0 +1,31 @@
+.container-fluid>.row{
+    height: calc(100vh - 200px);
+}
+
+.container-fluid .row>.left-container{
+    height: calc(100vh - 200px);
+    background-color: burlywood;
+}
+
+.container-fluid .row>.right-container{
+    height: calc(100vh - 200px);
+    background-color: black;
+    overflow: auto;
+}
+
+/* debug */
+.debug header{
+    height: 100px;
+    background-color: blue;
+}
+
+.debug main{
+    height: 1500px;
+    background-color: brown;
+}
+
+.debug footer{
+    height: 200px;
+    background-color: orange;
+}
+
