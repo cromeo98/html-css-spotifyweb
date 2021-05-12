@@ -1,16 +1,16 @@
 .container-fluid>.row{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
 }
 
 .container-fluid .row>.left-container{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     background-color: burlywood;
     min-width: 250px;
     
 }
 
 .container-fluid .row>.right-container{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     background-color: black;
     overflow: auto;
 }
@@ -21,6 +21,9 @@
     justify-content: space-between;
 }
 
+footer>.row{
+    justify-content: space-around;
+}
 /* debug */
 .debug header{
     height: 80px;
@@ -33,7 +36,7 @@
 }
 
 .debug footer{
-    height: 200px;
+    height: 100px;
     background-color: orange;
 }
 
@@ -75,4 +78,10 @@
 .debug #popular-artists{
     height: 150px;
     background-color: blue;
+}
+
+.debug .foot-box{
+    width: 20%;
+    height: 100px;
+    background-color: black;
 }
