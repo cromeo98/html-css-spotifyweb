@@ -4,7 +4,7 @@
 
 .container-fluid .row>.left-container{
     height: calc(100vh - 100px);
-    background-color: burlywood;
+    background-color: #000000;
     min-width: 250px;
 }
 
@@ -12,6 +12,15 @@
     height: calc(100vh - 100px);
     background-color: black;
     overflow: auto;
+}
+
+body{
+    color: #a3a3a3;
+}
+
+.icon{
+    width: 25px;
+    vertical-align: middle;
 }
 
 /* playlist section */
@@ -37,21 +46,6 @@
 
 .nav-btn{
     padding: 5px 0;
-}
-
-#home-icon{
-    width: 25px;
-    vertical-align: middle;
-}
-
-#search-icon{
-    width: 25px;
-    vertical-align: middle;
-}
-
-#library-icon{
-    width: 25px;
-    vertical-align: middle;
 }
 
 /* add playlist */
@@ -103,10 +97,10 @@ footer>.row{
     background-color: darkorange;
 } */
 
-.debug .user{
+/* .debug .bottom{
     height: 50px;
     background-color: darkorchid;
-}
+} */
 
 .debug .main-nav{
     height: 30px;

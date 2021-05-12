@@ -12,6 +12,10 @@ li{
     text-align: center;
 }
 
+.ib{
+    display: inline-block;
+}
+
 .container-fluid{
     width: 100%;
 }
