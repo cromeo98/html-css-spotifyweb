@@ -19,23 +19,24 @@
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 #logo{
-    padding: 15px;
+    padding: 15px 0;
 }
 
 #logo img{
     width: 80%;
 }
 
-/* playlost navbar */
+/* playlist navbar */
 .playlist-nav span{
     vertical-align: middle;
 }
 
 .nav-btn{
-    margin: 7px 10px;
+    padding: 5px 0;
 }
 
 #home-icon{
@@ -51,6 +52,20 @@
 #library-icon{
     width: 25px;
     vertical-align: middle;
+}
+
+/* add playlist */
+.add-playlist{
+    padding: 5px 0;
+}
+
+.add-playlist>i{
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.playlist>ul>li{
+    padding: 5px 0;
 }
 
 /* footer */
@@ -83,10 +98,10 @@ footer>.row{
     background-color: darkgoldenrod;
 } */
 
-.debug .playlist{
+/* .debug .playlist{
     height: 120px;
     background-color: darkorange;
-}
+} */
 
 .debug .user{
     height: 50px;
