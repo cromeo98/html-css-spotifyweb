@@ -6,7 +6,6 @@
     height: calc(100vh - 100px);
     background-color: burlywood;
     min-width: 250px;
-    
 }
 
 .container-fluid .row>.right-container{
@@ -15,12 +14,46 @@
     overflow: auto;
 }
 
+/* playlist section */
 .col-playlist{
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
 
+#logo{
+    padding: 15px;
+}
+
+#logo img{
+    width: 80%;
+}
+
+/* playlost navbar */
+.playlist-nav span{
+    vertical-align: middle;
+}
+
+.nav-btn{
+    margin: 7px 10px;
+}
+
+#home-icon{
+    width: 25px;
+    vertical-align: middle;
+}
+
+#search-icon{
+    width: 25px;
+    vertical-align: middle;
+}
+
+#library-icon{
+    width: 25px;
+    vertical-align: middle;
+}
+
+/* footer */
 footer>.row{
     justify-content: space-around;
 }
@@ -40,15 +73,15 @@ footer>.row{
     background-color: orange;
 }
 
-.debug #logo{
+/* .debug #logo{
     height: 80px;
     background-color: cyan;
-}
+} */
 
-.debug .playlist-nav{
+/* .debug .playlist-nav{
     height: 30px;
     background-color: darkgoldenrod;
-}
+} */
 
 .debug .playlist{
     height: 120px;
