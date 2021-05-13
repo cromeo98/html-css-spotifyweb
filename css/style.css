@@ -1,0 +1,15 @@
+.debug .container-left{
+    width: 250px;
+    height: calc(100vh - 100px);
+    background-color: lightpink;
+}
+
+.debug .container-right{
+    height: calc(100vh - 100px);
+    background-color: lightseagreen;
+}
+
+.debug footer{
+    height: 100px;
+    background-color: lime;
+}
