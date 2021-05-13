@@ -1,38 +1,33 @@
 .container-fluid>.row{
-    /* height: calc(100vh - 100px); */
+    height: calc(100vh - 100px);
 }
 
 .container-fluid .row>.left-container{
-    /* height: calc(100vh - 100px); */
-    background-color: #000000;
+    height: calc(100vh - 100px);
+    background-color: burlywood;
     min-width: 250px;
 }
 
 .container-fluid .row>.right-container{
-    /* height: calc(100vh - 100px); */
+    height: calc(100vh - 100px);
     background-color: black;
     overflow: auto;
 }
 
-body{
-    color: #a3a3a3;
-}
-
-.icon{
-    width: 25px;
-    vertical-align: middle;
-}
-
 /* playlist section */
 .col-playlist{
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: nowrap;
     padding: 0 10px;
 }
 
 #logo{
     padding: 15px 0;
+}
+
+#logo img{
+    width: 80%;
 }
 
 /* playlist navbar */
@@ -42,6 +37,21 @@ body{
 
 .nav-btn{
     padding: 5px 0;
+}
+
+#home-icon{
+    width: 25px;
+    vertical-align: middle;
+}
+
+#search-icon{
+    width: 25px;
+    vertical-align: middle;
+}
+
+#library-icon{
+    width: 25px;
+    vertical-align: middle;
 }
 
 /* add playlist */
@@ -54,7 +64,7 @@ body{
     vertical-align: middle;
 }
 
-.playlist>.list-of-playlist>ul>li{
+.playlist>ul>li{
     padding: 5px 0;
 }
 
@@ -62,17 +72,16 @@ body{
 footer>.row{
     justify-content: space-around;
 }
-
 /* debug */
 .debug header{
     height: 80px;
     background-color: blue;
 }
 
-/* .debug main{
+.debug main{
     height: 1500px;
     background-color: brown;
-} */
+}
 
 .debug footer{
     height: 100px;
@@ -94,10 +103,10 @@ footer>.row{
     background-color: darkorange;
 } */
 
-/* .debug .bottom{
+.debug .user{
     height: 50px;
     background-color: darkorchid;
-} */
+}
 
 .debug .main-nav{
     height: 30px;
