@@ -45,7 +45,7 @@ li{ list-style: none;}
 }
 
 [class*="col-"] {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 } 
   /* 12 System */
   /* xs-system */
