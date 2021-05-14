@@ -183,15 +183,19 @@ header{
 }
 /* end nav */
 
-/* section recently played */
-#recently-played [class*="col-"]{
+/* main sections */
+.container-sections .row{
+    margin-top: 10px;
+}
+
+.container-sections  [class*="col-"]{
     margin-right: 10px;
 }
-#recently-played .cover-img-container{
+.container-sections .cover-img-container{
     width: 100%;
 }
 
-#recently-played .cover-img-container img{
+.container-sections .cover-img-container img{
     width: 100%;
 }
 
@@ -203,16 +207,6 @@ header{
 .debug footer{
     height: 100px;
     background-color: lime;
-}
-
-.debug #recently-played{
-    /* height: 300px; */
-    background-color: red;
-}
-
-.debug #created-for-you{
-    height: 300px;
-    background-color: blue;
 }
 
 .debug #popular-artists{
