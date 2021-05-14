@@ -3,6 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
 /* container-left */
 .container-left{
     width: 250px;
@@ -18,13 +19,15 @@ body{
 
 /* top */
 .top{
-    /* height: calc(100% - 100px); */
+    height: calc(100% - 60px);
+    min-height: 400px;
     width: 100%;
     padding: 0 15px;
 }
 
 /* logo */
 .logo{
+    height: 80px;
     padding: 15px 0;
 }
 
@@ -34,9 +37,10 @@ body{
 /* end logo */
 
 /* navigation */
-.navigation{
+/* .navigation{
+    height: calc;
     margin-bottom: 20px;
-}
+} */
 
 .navigation ul li{
     margin-bottom: 5px;
@@ -52,6 +56,11 @@ body{
 /* navigation */
 
 /* playlist */
+#playlist{
+    height: 55%;
+    min-height: 200px;
+}
+
 #playlist h4{
     margin-bottom: 7px;
     text-transform: uppercase;
@@ -63,9 +72,16 @@ body{
     font-size: 30px;
     color: #717478;
 }
+
 .add-playlist span{
     vertical-align: middle;
     font-size: 13px;
+}
+
+.list-of-playlist{
+    height: 75%;
+    min-height: 150px;
+    overflow-y: auto;
 }
 
 .list-of-playlist>li{
@@ -73,7 +89,7 @@ body{
 }
 /* bottom */
 .bottom{
-    /* height: 100px; */
+    height: 60px;
     width: 100%;
     padding: 0 15px;
 }
@@ -163,7 +179,7 @@ header{
 }
 
 .debug .logo{
-    height: 80px;
+    /* height: 80px; */
     /* background-color: maroon; */
 }
 
