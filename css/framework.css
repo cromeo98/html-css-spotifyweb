@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 li{
     list-style: none;
 }
@@ -11,6 +15,39 @@ li{
 .txt-cen{
     text-align: center;
 }
+
+/* display */
+.ib{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.flex{
+    display: flex;
+}
+/* end display */
+
+/* flex properties */
+.direction-col{
+    display: flex;
+    flex-direction: column;
+}
+
+/* alignment */
+.justify-sp-bet{ justify-content: space-between;}
+.justify-sp-around{ justify-content: space-around;}
+.justify-fl-start{ justify-content: flex-start;}
+.justify-fl-end{ justify-content: flex-end;}
+.justify-cen{ justify-content: center;}
+
+/* end flex prop */
 
 .container-fluid{
     width: 100%;
