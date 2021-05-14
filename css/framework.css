@@ -1,44 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* general */
 
-a{
-    text-decoration: none;
-}
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+a{ text-decoration: none;}
+li{ list-style: none;}
 
-li{
-    list-style: none;
-}
+/* classic alignments */
 
-.txt-cen{
-    text-align: center;
-}
-
+.txt-cen{ text-align: center;}
+.ver-align-mid{ vertical-align: middle;}
 /* display */
-.ib{
-    display: inline-block;
-}
 
-.block{
-    display: block;
-}
+.ib{ display: inline-block;}
+.block{ display: block;}
+.inline{ display: inline;}
+.flex{ display: flex;}
 
-.inline{
-    display: inline;
-}
-
-.flex{
-    display: flex;
-}
 /* end display */
 
 /* flex properties */
-.direction-col{
-    display: flex;
-    flex-direction: column;
-}
+.direction-col{ display: flex; flex-direction: column;}
 
 /* alignment */
 .justify-sp-bet{ justify-content: space-between;}

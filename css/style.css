@@ -1,11 +1,14 @@
 body{
     color: #717478;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 /* container-left */
 .container-left{
     width: 250px;
     height: calc(100vh - 100px);
     background-color: #000000;
+    font-size: 12px;
 }
 
 .playlist-container{
@@ -13,29 +16,108 @@ body{
     width: 100%;
 }
 
+/* top */
 .top{
-    height: calc(100% - 100px);
+    /* height: calc(100% - 100px); */
     width: 100%;
-    padding: 0 2.5%;
+    padding: 0 15px;
+}
+
+/* logo */
+.logo{
+    padding: 15px 0;
+}
+
+.logo>img{
+    width: 60%;
+}
+/* end logo */
+
+/* navigation */
+.navigation{
+    margin-bottom: 20px;
+}
+
+.navigation ul li{
+    margin-bottom: 5px;
+}
+
+.navigation ul li>*{
+    vertical-align: middle;
 }
 
 .navigation ul li>img{
     width: 25px;
 }
+/* navigation */
 
+/* playlist */
+#playlist h4{
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.add-playlist a>i{
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #717478;
+}
+.add-playlist span{
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.list-of-playlist>li{
+    margin-top: 15px;
+}
+/* bottom */
 .bottom{
     /* height: 100px; */
     width: 100%;
-    padding: 0 2.5%;
+    padding: 0 15px;
 }
 
+.bottom hr{
+    margin: 5px 0;
+}
+
+/* download */
 .bottom .download a>img{
-    width: 10px;
+    width: 12px;
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+.bottom .download span{
+    font-size: 11px;
+}
+/* end download */
+
+/* user */
+.user{
+    margin-bottom: 5px;
+}
+.bottom .profile-img-container{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #717478;
 }
 
 .bottom .user img{
-    width: 10px;
+    width: 15px;
+    vertical-align: middle;
 }
+
+.bottom .user span{
+    color: white;
+    font-weight: 700;
+}
+/* end user */
 
 /* container-right */
 .container-right{
