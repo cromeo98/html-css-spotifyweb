@@ -266,6 +266,35 @@ footer .small-img-container img{
 .song-sect-icon i:first-child{
     margin-right: 7px;
 }
+
+/* player section */
+.top-player ul>li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: white;
+}
+
+.top-player ul>li:nth-child(3){
+    font-size: 25px;
+}
+
+.bottom-player>*{
+    vertical-align: middle;
+}
+
+.time-line{
+    width: 65%;
+    border: 2px solid #5a5a5a;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.time{
+    font-size: 10px;
+    color: white;
+}
+
 /* debug */
 footer .row [class*="col-"]{
     border: 1px solid red;
