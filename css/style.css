@@ -136,6 +136,7 @@ body{
 .container-right{
     height: calc(100vh - 100px);
     overflow: auto;
+    background-color: #141922;
 }
 
 .container-sections{
@@ -179,13 +180,17 @@ header{
 .main-nav ul>li{
     padding: 0 5px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.main-nav ul>li>a{
+    color: #717478;
 }
 /* end nav */
 
 /* main sections */
 .container-sections .row{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .container-sections  [class*="col-"]{
@@ -199,17 +204,32 @@ header{
     width: 100%;
 }
 
-/* debug */
-.debug .container-right{
-    background-color: lightseagreen;
+.container-sections section h2{
+    font-size: 23px;
 }
 
+.container-sections section h2,
+.container-sections section h3{
+    color: white;
+}
+
+.container-sections section h3,
+.container-sections section h4{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container-sections section h3{
+    font-size: 14px;
+}
+
+.container-sections section h4,
+.container-sections section p{
+    font-size: 11px;
+}
+
+/* debug */
 .debug footer{
     height: 100px;
     background-color: lime;
-}
-
-.debug #popular-artists{
-    height: 300px;
-    background-color: orange;
 }

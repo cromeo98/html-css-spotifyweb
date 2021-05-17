@@ -8,6 +8,11 @@ li{ list-style: none;}
 
 .txt-cen{ text-align: center;}
 .ver-align-mid{ vertical-align: middle;}
+
+/* formats */
+.circle-bord{ border-radius: 50%;}
+.txt-white{ color: white;}
+
 /* display */
 
 .ib{ display: inline-block;}
