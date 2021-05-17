@@ -295,8 +295,18 @@ footer .small-img-container img{
     color: white;
 }
 
-/* debug */
-footer .row [class*="col-"]{
-    border: 1px solid red;
+/* volume setcion */
+.volume-icons i{
+    color: white;
+    font-size: 12px;
+    margin-right: 8px;
 }
+
+.volume-line{
+    width: 40%;
+    border: 2px solid #5a5a5a;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
 
