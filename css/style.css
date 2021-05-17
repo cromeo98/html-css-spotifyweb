@@ -297,7 +297,7 @@ footer .small-img-container img{
 }
 
 .song-title{
-    margin-right: 40px;
+    margin-right: 15%;
 }
 
 .song-title h5{
@@ -310,7 +310,7 @@ footer .small-img-container img{
 }
 
 .song-sect-icon i:first-child{
-    margin-right: 7px;
+    padding-right: 5px;
 }
 
 /* player section */
@@ -336,6 +336,12 @@ footer .small-img-container img{
     margin: 0 10px;
 }
 
+@media screen and (max-width: 576px){
+    .time-line{
+        width: 45%;
+    }
+}
+
 .time{
     font-size: 10px;
     color: white;
@@ -349,10 +355,16 @@ footer .small-img-container img{
 }
 
 .volume-line{
-    width: 40%;
+    width: 50%;
     border: 2px solid #5a5a5a;
     border-radius: 50px;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 756px){
+    .time-line{
+        width: 55%;
+    }
 }
 
 
