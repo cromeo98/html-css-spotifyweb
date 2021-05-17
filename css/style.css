@@ -228,8 +228,18 @@ header{
     font-size: 11px;
 }
 
-/* debug */
-.debug footer{
+/* footer */
+footer{
     height: 100px;
-    background-color: lime;
+    background-color: #282828;
 }
+
+footer .row{
+    height: 100px;
+}
+
+/* debug */
+footer .row [class*="col-"]{
+    border: 1px solid red;
+}
+
