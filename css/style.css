@@ -209,6 +209,13 @@ header{
     color: white;
 }
 
+.upgrade-btn:hover{
+    right: 15px;
+    top: 15px;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+
 /* main nav */
 .main-nav{
     padding-top: 90px;
