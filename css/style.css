@@ -3,6 +3,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+a{
+    color: #717478;
+}
 /* container-left */
 .container-left{
     width: 250px;
@@ -96,7 +100,7 @@ body{
     color: #717478;
 }
 
-.add-playlist span{
+.add-playlist a{
     vertical-align: middle;
     font-size: 13px;
 }
@@ -133,8 +137,9 @@ body{
     vertical-align: middle;
 }
 
-.bottom .download span{
-    font-size: 11px;
+.bottom .download a{
+    font-size: 10px;
+    color: #717478;
 }
 /* end download */
 
@@ -162,6 +167,17 @@ body{
     font-weight: 700;
 }
 /* end user */
+/* hover */
+.container-left a:hover,.container-left i:hover{
+    color: white;
+}
+
+.container-left .navigation li:hover{
+    margin-left: -15px;
+    padding-left: 15px;
+    border-left: 2px solid yellowgreen ;
+}
+
 /* end container-left */
 
 /* container-right */
@@ -238,6 +254,7 @@ header{
     width: 25px;
     border: 1px solid greenyellow;
     margin-left: 40%;
+    margin-bottom: -1px;
 }
 
 .main-nav ul>li:hover a{
