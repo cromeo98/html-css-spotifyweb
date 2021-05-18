@@ -420,7 +420,7 @@ footer .small-img-container img{
     }
 }
 
-.running-time-line{
+.running-line{
     width: 20%;
     border: 1.5px solid #c1c1c1;
     border-radius: 50px;
@@ -433,7 +433,7 @@ footer .small-img-container img{
     background-color: white;
 } */
 
-.time-line:hover .running-time-line{
+.time-line:hover .running-line{
     border: 1.5px solid yellowgreen;
 }
 
@@ -450,10 +450,15 @@ footer .small-img-container img{
 }
 
 .volume-line{
+    height: 4px;
     width: 50%;
     border: 2px solid #5a5a5a;
     border-radius: 50px;
     margin-right: 10px;
+}
+
+.volume-line:hover .running-line{
+    border: 1.5px solid yellowgreen;
 }
 
 @media screen and (max-width: 756px){
