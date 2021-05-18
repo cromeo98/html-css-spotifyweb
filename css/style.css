@@ -365,6 +365,10 @@ footer .small-img-container img{
     font-size: 11px;
 }
 
+.song-title p:hover{
+    text-decoration: underline;
+}
+
 .song-title p{
     font-size: 10px;
 }
@@ -373,16 +377,28 @@ footer .small-img-container img{
     padding-right: 5px;
 }
 
+.song-sect-icon i:hover{
+    color: white;
+}
+
 /* player section */
 .top-player ul>li{
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.top-player ul>li>a>i{
     color: white;
 }
 
 .top-player ul>li:nth-child(3){
     font-size: 25px;
+}
+
+.top-player ul>li:nth-child(3):hover{
+    font-size:30px ;
+    margin-top: -5px;
 }
 
 .bottom-player>*{
@@ -391,15 +407,34 @@ footer .small-img-container img{
 
 .time-line{
     width: 65%;
+    height: 4px;
     border: 2px solid #5a5a5a;
     border-radius: 50px;
     margin: 0 10px;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 576px){
     .time-line{
         width: 45%;
     }
+}
+
+.running-time-line{
+    width: 20%;
+    border: 1.5px solid #c1c1c1;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+/* 
+.end-run-time-line{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+} */
+
+.time-line:hover .running-time-line{
+    border: 1.5px solid yellowgreen;
 }
 
 .time{
