@@ -221,14 +221,31 @@ header{
     padding-top: 90px;
 }
 
-.main-nav ul>li{
+.main-nav ul li{
+    width: 120px;
     padding: 0 5px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 12px;
 }
 
 .main-nav ul>li>a{
     color: #717478;
+}
+
+.green-underline{
+    display: none;
+    width: 25px;
+    border: 1px solid greenyellow;
+    margin-left: 40%;
+}
+
+.main-nav ul>li:hover a{
+    color: white;
+}
+
+.main-nav ul>li:hover .green-underline{
+    display: block;
 }
 /* end nav */
 
