@@ -260,6 +260,25 @@ header{
 }
 .container-sections .cover-img-container{
     width: 100%;
+    position: relative;
+}
+
+.container-sections .cover-img-container:hover .player-hover{
+    display: block;
+}
+
+.container-sections .cover-img-container:hover img{
+    filter: opacity(0.7);
+}
+
+.player-hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    display: none;
 }
 
 .container-sections .cover-img-container img{
